@@ -1,0 +1,42 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@600&display=swap');
+
+
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-size: 5vmin;
+  text-align: center;
+  
+  /* Add contrast to text */
+  background-color: #0476f25c;
+  border-radius: 10px;
+}
+
+blockquote{
+  color: white;
+}
+
+nav{
+   width: 3%;
+  display: flex;
+  justify-content: center; 
+  padding: 10px;
+}
